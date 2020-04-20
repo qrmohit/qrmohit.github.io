@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+ }
+
+
+body{
+  margib: 0;
+  padding: 0;
+ }
+
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+ }
+
+.header {
+  height: 100vh;
+  text-align: center;
+  background-image: url('quantum.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+ }
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  min-width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.description {
+  width: 70%;
+  margin: 0 auto;
+ }
+
+.features {
+  margin: 10px auto;
+  text-align: center;
+ }
+
+.features *{
+  margin: 10px auto;
+ }
+
+.features img {
+  border-radius: 5px;
+ }
+
+.feature {
+  margin: 3px;
+ }
+
+.feature:hover {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6), -4px -4px 4px rgba(0, 0, 0, 0.6);
+ }
+
+.submit {
+  width: 50vw;
+  margin: 20px auto;
+  text-align: center;
+ }
+
+.submit .form-control,
+.submit input {
+    border-radius: 0;
+}
+.submit .btn {
+  background-color: #589b37;
+  border: 1px solid #589b37;
+  color: #fff;
+  width: 100px;
+}
+.submit .btn:hover {
+  background-color: #333;
+  border: 1px solid #333;
+}
+
+.page-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 60px 0 30px;
+}
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+}
+
+@media only screen and (max-width: 480px) {
+  .submit{
+     width: 100vw;
+   }
+}
