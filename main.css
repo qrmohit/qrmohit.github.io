@@ -23,15 +23,6 @@ body{
   color: white;
  }
 
-.overlay {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100%;
-  min-width: 100%;
-  background: rgba(0, 0, 0, 0.6);
-}
-
 .description {
   width: 70%;
   margin: 0 auto;
