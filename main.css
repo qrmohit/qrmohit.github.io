@@ -17,7 +17,7 @@ body{
 .header {
   height: 100vh;
   text-align: center;
-  background-image: url('Quantum.jpeg');
+  background-image: url('quantum.jpeg');
   background-size: cover;
   background-position: center;
   color: white;
